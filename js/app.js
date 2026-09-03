@@ -220,6 +220,7 @@
                 <span class="row-years">
                   <span>${escapeHtml(project.years)}</span>
                 </span>
+                <span class="row-meta">${escapeHtml(TYPE_LABEL[project.type])} · ${escapeHtml(seats)}${project.partners.length ? " · " + escapeHtml(project.partners.join(", ")) : ""}</span>
               </span>
               <span class="muted">${TYPE_LABEL[project.type]}</span>
               <span class="muted">${escapeHtml(seats)}</span>

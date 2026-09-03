@@ -297,6 +297,10 @@ a:hover {
   min-width: 0;
 }
 
+.row-meta {
+  display: none;
+}
+
 .row-years {
   display: flex;
   flex-wrap: wrap;
@@ -530,6 +534,7 @@ a:hover {
 
   .filters {
     flex-direction: column;
+    gap: 14px;
   }
 
   .table-head {
@@ -537,30 +542,128 @@ a:hover {
   }
 
   .row-line {
-    grid-template-columns: 18px 1fr 1fr;
-    grid-template-areas:
-      "mark name name"
-      "mark type seat"
-      "mark partners partners";
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 4px;
   }
 
-  .row-line > .mark-slot { grid-area: mark; }
-  .row-line .name-cell { grid-area: name; }
-  .row-line span:nth-child(3) { grid-area: type; }
-  .row-line span:nth-child(4) { grid-area: seat; }
-  .row-line > span:last-child { grid-area: partners; }
+  .row-line > .mark-slot {
+    margin-top: 4px;
+    flex: 0 0 12px;
+  }
+
+  .row-line .name-cell {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  /* hide type / seat / partners inline — shown via .row-meta below */
+  .row-line > .muted {
+    display: none;
+  }
+
+  /* inject a meta line under the name via a sibling in JS — replicated via CSS content trick */
   .row-years {
-    max-height: 3.2em;
+    max-height: none;
+    overflow: visible;
+    display: block;
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* compact meta: type · role · partners shown as a single muted line */
+  .row-meta {
+    display: block;
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 2px;
+    white-space: normal;
+    line-height: 1.35;
   }
 
   .panel-body {
     grid-template-columns: 1fr;
-    padding-left: 4px;
+    padding: 4px 4px 24px 22px;
+    gap: 20px;
   }
 
   .hover-slot,
   .hover-card {
     display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .frame {
+    width: min(100% - 24px, 1120px);
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .top {
+    gap: 20px;
+    padding-bottom: 32px;
+  }
+
+  .hire {
+    font-size: 1rem;
+  }
+
+  .trail {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .trail li {
+    font-size: 0.96rem;
+  }
+
+  .meta {
+    font-size: 0.86rem;
+  }
+
+  .work {
+    padding-top: 24px;
+  }
+
+  .filters {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .chip {
+    font-size: 0.82rem;
+    padding: 5px 10px 6px;
+  }
+
+  .proj-name {
+    font-size: 0.98rem;
+  }
+
+  .panel-body {
+    padding: 4px 0 20px 22px;
+  }
+
+  .panel-body p {
+    font-size: 0.95rem;
+  }
+
+  .clippings blockquote {
+    font-size: 0.92rem;
+    padding-left: 32px;
+  }
+
+  .foot {
+    gap: 28px 48px;
+    margin-top: 36px;
+  }
+
+  .foot-block {
+    min-width: 0;
+    width: 100%;
   }
 }
 
