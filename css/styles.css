@@ -54,12 +54,25 @@ a:hover {
   font-weight: 400;
   letter-spacing: -0.03em;
   line-height: 0.95;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .meta {
   margin: 10px 0 0;
   color: var(--muted);
   font-size: 0.92rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.meta-seg {
+  white-space: nowrap;
+}
+
+.meta-dot {
+  white-space: pre;
 }
 
 .hire {
@@ -301,6 +314,7 @@ a:hover {
   display: none;
 }
 
+
 .row-years {
   display: flex;
   flex-wrap: wrap;
@@ -533,9 +547,39 @@ a:hover {
   }
 
   .filters {
-    flex-direction: column;
-    gap: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 6px;
+    margin-bottom: 20px;
   }
+
+  .filter-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 6px;
+  }
+
+  .filter-block h1,
+  .filter-block h2 {
+    margin: 0 2px 0 0;
+    font-size: 0.68rem;
+    display: inline;
+  }
+
+  .filter-heading {
+    display: contents;
+  }
+
+  .list-toggle {
+    display: none !important;
+  }
+
+  .chip-row {
+    display: contents;
+  }
+
 
   .table-head {
     display: none;
@@ -635,8 +679,9 @@ a:hover {
   }
 
   .chip {
-    font-size: 0.82rem;
-    padding: 5px 10px 6px;
+    font-size: 0.72rem;
+    padding: 3px 8px 4px;
+    letter-spacing: 0;
   }
 
   .proj-name {

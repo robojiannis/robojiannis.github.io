@@ -34,7 +34,12 @@
     openId: null,
   };
 
-  metaEl.innerHTML = `Berlin · DE / EN / EL · ${escapeHtml(person.email)} · <a href="${escapeHtml(person.linkedin)}" rel="noreferrer">LinkedIn</a>`;
+  metaEl.innerHTML = [
+    "Berlin",
+    "DE / EN / EL",
+    escapeHtml(person.email),
+    `<a href="${escapeHtml(person.linkedin)}" rel="noreferrer">LinkedIn</a>`,
+  ].map(s => `<span class="meta-seg">${s}</span>`).join('<span class="meta-dot"> · </span>');
   hireEl.textContent = person.hire;
   eduEl.innerHTML = person.education
     .map(
