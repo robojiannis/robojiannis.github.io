@@ -7,7 +7,7 @@ window.PORTFOLIO = {
     email: "robojiannis [at] gmail [dot] com",
     linkedin: "https://www.linkedin.com/in/jiannissotiropoulos/",
     hire:
-      "I like building digital products: choosing the stack, prototyping the integration, shipping it, and still being there after launch.",
+      "I founded and ran Honig Studios in Berlin for sixteen years. What I care about is still the same — I pick the stack, ship the product, and stay after launch.",
     education: [
       {
         degree: "Master of Arts, European Media Studies",
@@ -21,12 +21,11 @@ window.PORTFOLIO = {
       },
     ],
     skills: [
-      "Strategy",
-      "Problem solving",
-      "Leadership",
       "Funding",
       "Business development",
       "Technical architecture",
+      "Live products",
+      "Integrations",
     ],
   },
   projects: [
@@ -45,7 +44,7 @@ window.PORTFOLIO = {
       story:
         "whether.games is an AI tool that quickly cleans up a publisher’s inbox and helps developers iteratively improve their games. Pitch decks land in an encrypted inbox; publishers get a fit report back — whether this game belongs with them, and what the weather looks like if they take it on.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
       responsibilities:
-        "I did the development on my own. I built the infrastructure: an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
+        "I built it alone — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
       scopeNote: null,
       partnersNote: null,
       result:null,      awards: null,
@@ -64,13 +63,13 @@ window.PORTFOLIO = {
       partners: ["BMWK", "equity investment"],
       team: "25",
       story:
-        "The Lost Glitches is a tactical card battler designed for instant action. Jump into short, clean PvP battles with 5 free complete starter decks. It’s easy to start, but deep when you want it, master the 5-slot battlefield, unlock skills, and go deeper at your own pace.",
+        "The Lost Glitches is a tactical card battler built for short PvP matches. Five free starter decks get you into the fight; the 5-slot battlefield and unlockable skills are where the depth sits if you want it.",
       responsibilities:
         "I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming.",
       scopeNote: "A live game with twenty-five of us, development started in 2022 until it released in 2025.",
       partnersNote: "BMWK funded the production, along with equity investors.",
       result:
-        "We were competing with AAA games for the same players. In spite of that, a strategic partnership with Twitch, listening to the community, and choosing which features to ship increased daily players, retention, and how many people signed up. We reached 300,000 registered users, and a peak of 10,000 people playing on the same day.",
+        "We were competing with AAA games for the same players. A strategic partnership with Twitch, listening to the community, and choosing which features to ship got us to 300,000 registered users, and a peak of 10,000 people playing on the same day.",
       awards: null,
       visual: { kind: "video", src: "media/lost-glitches.mp4?v=2", poster: "media/lost-glitches.jpg?v=2" },
     },
@@ -134,7 +133,7 @@ window.PORTFOLIO = {
       partners: ["Sony Music"],
       team: "8",
       story:
-        "Ooigo is a dedicated app to stream audiobooks for children. It connects with your Spotify or Apple Music account and helps you find the best stories based on your child’s interests and age. The app learns the more you use it: it remembers favourite series, continues from where you stopped listening, and suggests series that fit the profile.\n\nChildren can search for the series and episodes they love, and if the result doesn’t fit the preset profile, a parental gate kicks in. It is a fun, safe and simple way to discover stories for children of all ages.",
+        "Ooigo is a children’s audiobook app we built for Sony Music. It connects to Spotify or Apple Music and recommends stories by age and interest. The app remembers favourite series, continues where listening stopped, and suggests series that fit the child’s profile.\n\nChildren can search for series and episodes; if a result leaves the preset profile, a parental gate kicks in.",
       responsibilities:
         "I technically led the project from the first idea through to what happened after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, the Spotify and Deezer connections, and the recommendation algorithms. ",
       scopeNote: "A live product with eight of us, from 2017 to 2020.",
@@ -333,7 +332,7 @@ window.PORTFOLIO = {
       story:
         "On a perfectly normal, totally magical hill stands a very special apple tree, full of confetti blossom, autumn leaves and rosy apples all at the same time. Beneath the apple tree lives a very small and very curious young snail called Milli. She is the only snail on Apple-Tree Hill, and when we first meet her she is not sure what it means to be a snail. She is very slow, she knows that much.\n\nBut Milli is also inquisitive, and it is her constant need to understand the world around her that fuels her adventures. When she sees Harry the Stag Beetle’s magnificent antlers, she doesn’t think “oh, that’s interesting.” She thinks: I wonder what it would be like to have antlers like that? And thus another adventure begins.",
       responsibilities:
-        "I programmed the app, handled business development and fuding, and published it on the iOS and Android stores.",
+        "I programmed the app, handled business development and funding, and published it on the iOS and Android stores.",
       scopeNote: "An original children’s app with six of us, from 2014 to 2015. I coordinated the efforts that resulted in selling the distribution rights to a major publisher.",
       partnersNote: "Medienboard and MFG funded it.",
       result: null,
@@ -492,7 +491,7 @@ window.PORTFOLIO = {
       story:
         "A Facebook karaoke app and a YouTube video for Universal Music, promoting Jessie J’s single Price Tag to teenage girls. Your webcam synced to a prerecorded video, Facebook Connect folded in some of your info, and the tracking rewarded you for dancing along.",
       responsibilities:
-        "I programmed the karaoke app and coordinated with anothe developer — the webcam, the bitmap tracking, Facebook Connect, and the backend that ran it in eight languages.",
+        "I programmed the karaoke app and coordinated with another developer — the webcam, the bitmap tracking, Facebook Connect, and the backend that ran it in eight languages.",
       scopeNote: "A music-campaign experiment with eight of us, in 2011.",
       partnersNote: "Universal Music was the partner.",
       result:
