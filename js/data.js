@@ -45,7 +45,7 @@ window.PORTFOLIO = {
       story:
         "whether.games is an AI tool that quickly cleans up a publisher’s inbox and helps developers iteratively improve their games. Pitch decks land in an encrypted inbox; publishers get a fit report back — whether this game belongs with them, and what the weather looks like if they take it on.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
       responsibilities:
-        "I built it alone — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
+        "I built it independently — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
       scopeNote: null,
       partnersNote: null,
       result:null,      awards: null,
