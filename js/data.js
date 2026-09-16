@@ -26,6 +26,7 @@ window.PORTFOLIO = {
       "Technical architecture",
       "Live products",
       "Integrations",
+      "CI / CD",
     ],
   },
   projects: [
@@ -65,11 +66,11 @@ window.PORTFOLIO = {
       story:
         "The Lost Glitches is a tactical card battler built for short PvP matches. Five free starter decks get you into the fight; the 5-slot battlefield and unlockable skills are where the depth sits if you want it.",
       responsibilities:
-        "I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming.",
+        "I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming. I also owned the CI/CD path from local test through merge, build, and promotion onto staging and preview environments (Jenkins and custom scripting), including database updates and seed data so a test environment came up ready to play on Steam and Epic.",
       scopeNote: "A live game with twenty-five of us, development started in 2022 until it released in 2025.",
       partnersNote: "BMWK funded the production, along with equity investors.",
       result:
-        "We were competing with AAA games for the same players. A strategic partnership with Twitch, listening to the community, and choosing which features to ship got us to 300,000 registered users, and a peak of 10,000 people playing on the same day.",
+        "We were competing with AAA games for the same players. A strategic partnership with Twitch, listening to the community, and choosing which features to ship got us to 300,000 registered users, and a peak of 10,000 concurrent players.",
       awards: null,
       visual: { kind: "video", src: "media/lost-glitches.mp4?v=2", poster: "media/lost-glitches.jpg?v=2" },
     },
@@ -194,7 +195,7 @@ window.PORTFOLIO = {
       story:
         "El Hijo is a spaghetti western, an indie stealth game set in a mythical place that resembles the American west as we know it from Sergio Leone: gangs of outlaws, shady saloons, and desert landscapes, all served with a helping of sarcasm and irony. The journey begins when a farmer and her son El Hijo are attacked by bandits who raze their farm. The mother, confronted with a difficult choice, leaves El Hijo with a group of old monks at a secluded monastery. El Hijo decides the monastic life is not for him, and he escapes.\n\nYou sneak through three environments — a remote monastery, a harsh stretch of desert, and a frontier town rife with crime — and in each one El Hijo has to contend with different opponents. Progress means combining stealth and puzzle-solving into a mischievous master plan, and the further he goes, the more complex those combinations become.",
       responsibilities:
-        "I was the project lead and was responsible for business development and funding.",
+        "I was the project lead and was responsible for business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
       scopeNote: "A console, streaming, and PC game with sixteen of us, from 2016 until it released in 2019.",
       partnersNote: "HandyGames published it, with additional funding from Medienboard and Nordmedia.",
       result: null,
