@@ -80,6 +80,12 @@ a:hover {
   max-width: 40rem;
   font-size: 1.12rem;
   text-wrap: pretty;
+  color: var(--muted);
+}
+
+.hire-role {
+  color: var(--ink);
+  font-weight: 400;
 }
 
 .trail {

@@ -41,10 +41,7 @@
     escapeHtml(person.email),
     `<a href="${escapeHtml(person.linkedin)}" rel="noreferrer">LinkedIn</a>`,
   ].map(s => `<span class="meta-seg">${s}</span>`).join('<span class="meta-dot"> · </span>');
-  hireEl.innerHTML = (Array.isArray(person.hire) ? person.hire : [person.hire])
-    .filter(Boolean)
-    .map((line) => escapeHtml(line))
-    .join("<br>");
+  hireEl.innerHTML = renderHire(person.hire);
   if (proofEl) {
     const proofHtml = renderProof(person.proof);
     if (proofHtml) {
@@ -411,6 +408,21 @@
       .replaceAll("<", "&lt;")
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;");
+  }
+
+  function renderHire(hire) {
+    const roles = ["product owner", "solution architect", "technical lead"];
+    const lines = (Array.isArray(hire) ? hire : [hire]).filter(Boolean);
+    return lines
+      .map((line) => {
+        let html = escapeHtml(line);
+        roles.forEach((role) => {
+          const needle = escapeHtml(role);
+          html = html.replaceAll(needle, `<span class="hire-role">${needle}</span>`);
+        });
+        return html;
+      })
+      .join("<br>");
   }
 
   function nameListHtml(names) {

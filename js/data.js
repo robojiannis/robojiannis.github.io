@@ -164,7 +164,7 @@ window.PORTFOLIO = {
       story:
         "Ooigo is a children’s audiobook app we built for Sony Music. It connects to Spotify or Apple Music and recommends stories by age and interest. The app remembers favourite series, continues where listening stopped, and suggests series that fit the child’s profile.\n\nChildren can search for series and episodes; if a result leaves the preset profile, a parental gate kicks in.",
       responsibilities:
-        "As product owner I coordinated four other engineers. I was the solution architect from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, the Spotify and Deezer connections, and the recommendation algorithms.",
+        "As product owner I coordinated four other engineers. I was the solution architect from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, streaming (Spotify, Apple Music, Deezer, Napster) connections, and the recommendation algorithms.",
       scopeNote: "A live product with eight of us, from 2017 to 2020.",
       partnersNote: "Sony Music was the partner.",
       result:
@@ -199,9 +199,9 @@ window.PORTFOLIO = {
       story:
         "Make more art at school. Art and creative thinking are fundamental building blocks of a child’s education, but bringing the artistic method into schools is a complicated task. For three years, five art groups — fine arts, literature, music, dance and theater — worked with schools to develop formats and methods for qualitative art in the classroom.\n\nKunstlabore is the online platform documenting that work, made to inspire educators and artists to work together.",
       responsibilities:
-        "As product owner I led a team of five. I was the solution architect for the platform — I owned the digital concept and the code.",
+        "As product owner I led a team of five and coordinated six other teams from schools, education, and art — people who were not tech-savvy. I was the solution architect for the platform: I owned the digital concept and the code, and ran workshops and iterations with those partners until educators could use the site and a workbook to carry the methods into their own classrooms.",
       scopeNote:
-        "An arts-education platform with five of us, from 2018 to 2019. We had to coordinate six other teams — they came from schools, education, and art, and they were not tech-savvy.\n\nMultiple workshops and iterations led to a workbook so teachers across the country could replicate the methods for teaching art in schools.",
+        "An arts-education platform with five of us, from 2018 to 2019. Multiple workshops and iterations led to a workbook so teachers across the country could replicate the methods for teaching art in schools.",
       partnersNote:
         "We made this with Mutik GmbH. Stiftung Mercator funded the programme.",
       result: null,
@@ -272,7 +272,7 @@ window.PORTFOLIO = {
       story:
         "Richard is a little sparrow who is convinced he is a stork. The 3D cinema film follows him, Olga, Kiki, and a flock of pigeons. The companion app puts those same characters on iOS and Android — games and playful features, built in Unity from the film’s 3D world.",
       responsibilities:
-        "As product owner I led the production and funding of the companion app.",
+        "As product owner I led a team of twelve. I owned production and funding of the companion app — scoping the mobile experience from the cinema world, coordinating delivery on iOS and Android with the film partners, and securing Medienboard funding — while programming and game design sat with others on the team.",
       scopeNote: "A 3D Unity game app — cinema assets cut down for phones — with twelve of us, in 2017.",
       partnersNote:
         "We made this with Knudsen & Streuber Medienmanufaktur, with funding from Medienboard.",
@@ -295,7 +295,7 @@ window.PORTFOLIO = {
       story:
         "Fox and Sheep Movie Studio gives you the chance to create a birthday film for granny, explain something complicated in an easy way, or finally put the stories in your head on screen. You can bring in characters from Little Fox Music Box and Nighty Night, dress the film with effects, and make it yours with an opening and a closing.",
       responsibilities:
-      "As product owner I sat with Fox and Sheep while the app came together.",
+      "As product owner I led a team of six and sat with Fox and Sheep while the preschool movie-maker app came together — keeping the licensed characters, effects, and delivery path clear with the client while programming and UI sat with others on the team.",
       scopeNote: "A licensed kids app with six of us, in 2017.",
       partnersNote: "We made this with Fox and Sheep.",
       result: null,
@@ -323,7 +323,7 @@ window.PORTFOLIO = {
       story:
         "What a lovely fruit garden — the fruit looks ripe and juicy — but Theo the Raven, the cheeky thief, wants to swipe it. He will try every trick to distract you and get the fruit from your basket. Only a quick harvest of cherries, apples, pears and plums keeps the raven from snatching them.\n\nThe child plays directly against Theo. When it is his turn he creeps a little closer, or starts one of many mini-games, which loosens the course of play and creates little surprises. This mobile version was made for the thirtieth anniversary of HABA’s classic board game Orchard, inviting children to play and learn about fruit and colours, in seventeen languages.",
       responsibilities:
-        "As product owner I ran production management on the digital version of HABA’s Orchard.",
+        "As product owner I led a team of five on the digital version of HABA’s Orchard. I ran production management with Fox and Sheep and HABA for the thirtieth-anniversary mobile release — including delivery in seventeen languages — while programming and art sat with others on the team.",
       scopeNote: "A licensed board-game app with five of us, in 2016.",
       partnersNote: "HABA and Fox and Sheep were the partners.",
       result: null,
@@ -352,7 +352,7 @@ window.PORTFOLIO = {
       name: "Milli The Snail",
       org: "honig",
       type: "own",
-      seats: ["product", "solutions"],
+      seats: ["product"],
       years: "2014–2015",
       yearStart: 2014,
       yearSort: 2015,
@@ -362,7 +362,7 @@ window.PORTFOLIO = {
       story:
         "On a perfectly normal, totally magical hill stands a very special apple tree, full of confetti blossom, autumn leaves and rosy apples all at the same time. Beneath the apple tree lives a very small and very curious young snail called Milli. She is the only snail on Apple-Tree Hill, and when we first meet her she is not sure what it means to be a snail. She is very slow, she knows that much.\n\nBut Milli is also inquisitive, and it is her constant need to understand the world around her that fuels her adventures. When she sees Harry the Stag Beetle’s magnificent antlers, she doesn’t think “oh, that’s interesting.” She thinks: I wonder what it would be like to have antlers like that? And thus another adventure begins.",
       responsibilities:
-        "As product owner I led a team of six. I was the solution architect for the app — I programmed it, handled business development and funding, and published it on the iOS and Android stores.",
+        "As product owner I led a team of six. I programmed the app, handled business development and funding, and published it on the iOS and Android stores.",
       scopeNote: "An original children’s app with six of us, from 2014 to 2015. I coordinated the efforts that resulted in selling the distribution rights to a major publisher.",
       partnersNote: "Medienboard and MFG funded it.",
       result: null,
