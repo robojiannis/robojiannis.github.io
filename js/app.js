@@ -1,9 +1,9 @@
 (function () {
   const TYPE_LABEL = { hired: "Client work", own: "Own project" };
   const SEAT_LABEL = {
-    lead: "Project lead",
-    programming: "Programming",
-    production: "Production",
+    technical: "Technical lead",
+    solutions: "Solution architect",
+    product: "Product owner",
   };
   const ORG_LABEL = { honig: "Honig Studios", whether: "whether.games" };
 
@@ -13,6 +13,7 @@
   const indexEl = document.getElementById("index");
   const metaEl = document.getElementById("meta");
   const hireEl = document.getElementById("hire");
+  const proofEl = document.getElementById("proof");
   const eduEl = document.getElementById("edu");
   const skillsEl = document.getElementById("skills");
   const contactEl = document.getElementById("contact");
@@ -40,7 +41,20 @@
     escapeHtml(person.email),
     `<a href="${escapeHtml(person.linkedin)}" rel="noreferrer">LinkedIn</a>`,
   ].map(s => `<span class="meta-seg">${s}</span>`).join('<span class="meta-dot"> · </span>');
-  hireEl.textContent = person.hire;
+  hireEl.innerHTML = (Array.isArray(person.hire) ? person.hire : [person.hire])
+    .filter(Boolean)
+    .map((line) => escapeHtml(line))
+    .join("<br>");
+  if (proofEl) {
+    const proofHtml = renderProof(person.proof);
+    if (proofHtml) {
+      proofEl.innerHTML = proofHtml;
+      proofEl.hidden = false;
+    } else {
+      proofEl.innerHTML = "";
+      proofEl.hidden = true;
+    }
+  }
   eduEl.innerHTML = person.education
     .map(
       (item) =>
@@ -63,7 +77,9 @@
 
   function parseQuery() {
     const params = new URLSearchParams(location.search);
-    const role = params.get("role") || params.get("seat");
+    let role = params.get("role") || params.get("seat");
+    if (role === "lead" || role === "production" || role === "management" || role === "programming")
+      role = role === "programming" ? "technical" : "solutions";
     if (role && SEAT_LABEL[role]) {
       state.seats = new Set([role]);
     }
@@ -208,6 +224,14 @@
     indexEl.innerHTML = ordered
       .map((project) => {
         const seats = project.seats.map((seat) => SEAT_LABEL[seat]).join(" · ");
+        const partners = project.partners.length
+          ? escapeHtml(project.partners.join(" · "))
+          : "—";
+        const rowMetaParts = [
+          TYPE_LABEL[project.type],
+          seats,
+          project.partners.length ? project.partners.join(", ") : null,
+        ].filter(Boolean);
         const visual = project.visual
           ? project.visual.kind === "video"
             ? `<div class="visual"><video muted loop playsinline preload="metadata" poster="${project.visual.poster}" src="${project.visual.src}"></video></div>`
@@ -225,11 +249,11 @@
                 <span class="row-years">
                   <span>${escapeHtml(project.years)}</span>
                 </span>
-                <span class="row-meta">${escapeHtml(TYPE_LABEL[project.type])} · ${escapeHtml(seats)}${project.partners.length ? " · " + escapeHtml(project.partners.join(", ")) : ""}</span>
+                <span class="row-meta">${escapeHtml(rowMetaParts.join(" · "))}</span>
               </span>
               <span class="muted">${TYPE_LABEL[project.type]}</span>
               <span class="muted">${escapeHtml(seats)}</span>
-              <span class="muted">${project.partners.length ? escapeHtml(project.partners.join(" · ")) : "—"}</span>
+              <span class="muted">${partners}</span>
             </button>
             <div class="panel">
               <div class="panel-inner">
@@ -387,6 +411,31 @@
       .replaceAll("<", "&lt;")
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;");
+  }
+
+  function nameListHtml(names) {
+    const items = (names || []).filter(Boolean).map((name) => escapeHtml(name));
+    if (!items.length) return "";
+    if (items.length === 1) return items[0];
+    if (items.length === 2) return `${items[0]} and ${items[1]}`;
+    return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+  }
+
+  function renderProof(proof) {
+    if (!proof) return "";
+    const parts = Array.isArray(proof) ? proof : [proof];
+    const lines = parts
+      .map((part) => {
+        if (!part) return "";
+        if (typeof part === "string") return escapeHtml(part);
+        const before = escapeHtml(part.before || "");
+        const after = escapeHtml(part.after || "");
+        const names = nameListHtml(part.names);
+        if (!before && !names && !after) return "";
+        return `${before}${names}${after}`;
+      })
+      .filter(Boolean);
+    return lines.join("<br>");
   }
 
   document.querySelectorAll("[data-type]").forEach((btn) => {

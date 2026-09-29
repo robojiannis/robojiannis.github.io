@@ -89,6 +89,7 @@ a:hover {
   display: grid;
   gap: 8px;
   max-width: 40rem;
+  color: var(--muted);
 }
 
 .trail li {
@@ -99,15 +100,27 @@ a:hover {
   line-height: 1.4;
 }
 
-.trail li > span:last-child {
+.trail li > span:last-child,
+.trail-copy {
   min-width: 0;
+}
+
+.trail-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.trail-proof {
+  display: block;
 }
 
 .trail .mark-slot {
   margin-top: 0.35em;
+  color: var(--ink);
 }
 
 .quiet-link {
+  color: inherit;
   text-decoration-thickness: 1px;
   text-decoration-color: rgba(20, 18, 16, 0.28);
   text-underline-offset: 0.2em;
@@ -314,6 +327,14 @@ a:hover {
   display: none;
 }
 
+.row-awards {
+  color: var(--ink);
+  opacity: 0.72;
+}
+
+.meta-sep {
+  color: var(--muted);
+}
 
 .row-years {
   display: flex;
