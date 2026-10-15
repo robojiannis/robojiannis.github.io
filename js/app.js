@@ -1,8 +1,8 @@
 (function () {
   const TYPE_LABEL = { hired: "Client work", own: "Own project" };
   const SEAT_LABEL = {
-    technical: "Technical lead",
-    solutions: "Solution architect",
+    technical: "Technical Program Manager",
+    solutions: "Software engineer",
     product: "Product owner",
   };
   const ORG_LABEL = { honig: "Honig Studios", whether: "whether.games" };
@@ -411,7 +411,7 @@
   }
 
   function renderHire(hire) {
-    const roles = ["product owner", "solution architect", "technical lead"];
+    const roles = ["product owner", "software engineer", "technical program manager"];
     const lines = (Array.isArray(hire) ? hire : [hire]).filter(Boolean);
     return lines
       .map((line) => {

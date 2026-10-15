@@ -7,7 +7,7 @@ window.PORTFOLIO = {
     email: "robojiannis [at] gmail [dot] com",
     linkedin: "https://www.linkedin.com/in/jiannissotiropoulos/",
     hire: [
-      "I founded and ran Honig Studios, a digital production studio in Berlin for sixteen years as product owner, solution architect, and technical lead.",
+      "I founded and ran Honig Studios, a digital production studio in Berlin for sixteen years as product owner, software engineer, and technical program manager.",
       "What I care about is still the same — I pick the stack, ship the product, and stay after launch.",
     ],
     proof: [
@@ -51,7 +51,7 @@ window.PORTFOLIO = {
     skills: [
       "Technical architecture",
       "Engineering leadership",
-      "Solution architecture",
+      "Software engineering",
       "AI tooling",
       "Product strategy",
       "Production Management",
@@ -63,7 +63,7 @@ window.PORTFOLIO = {
       name: "whether.games",
       org: "whether",
       type: "own",
-      seats: ["product", "technical"],
+      seats: ["product", "solutions"],
       years: "2026",
       yearStart: 2026,
       yearSort: 2026,
@@ -73,7 +73,7 @@ window.PORTFOLIO = {
       story:
         "whether.games is an AI tool that quickly cleans up a publisher’s inbox and helps developers iteratively improve their games. Pitch decks land in an encrypted inbox; publishers get a fit report back — whether this game belongs with them, and what the weather looks like if they take it on.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
       responsibilities:
-        "I was the product owner and technical lead, and built it independently — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
+        "I was the product owner and software engineer, and built it independently — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
       scopeNote: null,
       partnersNote: null,
       result:null,      awards: null,
@@ -84,7 +84,7 @@ window.PORTFOLIO = {
       name: "The Lost Glitches",
       org: "honig",
       type: "own",
-      seats: ["product", "solutions"],
+      seats: ["product", "technical"],
       years: "2022–2025",
       yearStart: 2022,
       yearSort: 2025,
@@ -94,7 +94,7 @@ window.PORTFOLIO = {
       story:
         "The Lost Glitches is a tactical card battler built for short PvP matches. Five free starter decks get you into the fight; the 5-slot battlefield and unlockable skills are where the depth sits if you want it.",
       responsibilities:
-        "As product owner I coordinated ten engineers alongside designers and artists in a team of twenty-five. I was the solution architect for the LiveOps stack and delivery path: I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming. I also owned the CI/CD path from local test through merge, build, and promotion onto staging and preview environments (Jenkins and custom scripting), including database updates and seed data so a test environment came up ready to play on Steam and Epic.",
+        "As product owner and technical program manager I coordinated ten engineers alongside designers and artists in a team of twenty-five. I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming. I also owned the CI/CD path from local test through merge, build, and promotion onto staging and preview environments (Jenkins and custom scripting), including database updates and seed data so a test environment came up ready to play on Steam and Epic.",
       scopeNote: "A live game with twenty-five of us, development started in 2022 until it released in 2025.",
       partnersNote: "BMWK funded the production, along with equity investors.",
       result:
@@ -107,7 +107,7 @@ window.PORTFOLIO = {
       name: "hochdrei – Visionenspiel",
       org: "honig",
       type: "hired",
-      seats: ["product", "solutions"],
+      seats: ["product", "technical"],
       years: "2021–2022",
       yearStart: 2021,
       yearSort: 2022,
@@ -117,7 +117,7 @@ window.PORTFOLIO = {
       story:
         "You want to rethink a library — maybe even rebuild it — and you want the people who use it in the room. hochdrei – Visionenspiel is a browser game the Kulturstiftung des Bundes made for that: library teams, administrations, and citizens sit together and turn scattered wishes into one shared concept.\n\nYou book a slot, send a link, and meet in the browser for about two hours, webcam and microphone on. The game walks the group from rough ideas — how the place should look, what it should do, how it should feel — to a plan you can download and keep using. Desktop only; phones and tablets stay out.",
       responsibilities:
-        "I was the product owner and solution architect, and I programmed it. I worked iteratively, with rapid prototypes, so the tool could change as we learned what actually happened in the room.",
+        "I was the product owner and technical program manager, and I programmed it. I worked iteratively, with rapid prototypes, so the tool could change as we learned what actually happened in the room.",
       scopeNote:
         "We spent a year and a half developing and testing it. The partner libraries we worked with asked for an intentionally simple design — they wanted the focus on the conversation and the ideation, not the interface. It launched on 24 October 2022, the German Day of Libraries.\n\nLibraries across Germany use the page as a foundation for their workshops.",
       partnersNote:
@@ -131,7 +131,7 @@ window.PORTFOLIO = {
       name: "Migrant Lives in Pandemic Times",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2021",
       yearStart: 2021,
       yearSort: 2021,
@@ -141,7 +141,7 @@ window.PORTFOLIO = {
       story:
         "Twelve short portraits of people living between countries during Covid, each paired with a scholar’s video and a policy brief. Recorded in the summer of 2021. From a Chilean tutor in Oakland to a Senegalese street seller in Bilbao, the platform puts voices that were missing from the debate next to the analysis that might change the conditions around them.\n\nThe people in the films took part in making their own stories, from start to finish.",
       responsibilities:
-        "I was the technical lead and I programmed the platform.",
+        "I was the software engineer and I programmed the platform.",
       scopeNote: "A social documentary platform, made in 2021.",
       partnersNote:
         "It was produced by CERC Migration at Toronto Metropolitan University and Migration Matters in Berlin.",
@@ -154,7 +154,7 @@ window.PORTFOLIO = {
       name: "Ooigo",
       org: "honig",
       type: "hired",
-      seats: ["product", "solutions"],
+      seats: ["product", "technical"],
       years: "2017–2020",
       yearStart: 2017,
       yearSort: 2020,
@@ -164,7 +164,7 @@ window.PORTFOLIO = {
       story:
         "Ooigo is a children’s audiobook app we built for Sony Music. It connects to Spotify or Apple Music and recommends stories by age and interest. The app remembers favourite series, continues where listening stopped, and suggests series that fit the child’s profile.\n\nChildren can search for series and episodes; if a result leaves the preset profile, a parental gate kicks in.",
       responsibilities:
-        "As product owner I coordinated four other engineers. I was the solution architect from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, streaming (Spotify, Apple Music, Deezer, Napster) connections, and the recommendation algorithms.",
+        "As product owner and technical program manager I coordinated four other engineers from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, streaming (Spotify, Apple Music, Deezer, Napster) connections, and the recommendation algorithms.",
       scopeNote: "A live product with eight of us, from 2017 to 2020.",
       partnersNote: "Sony Music was the partner.",
       result:
@@ -199,7 +199,7 @@ window.PORTFOLIO = {
       story:
         "Make more art at school. Art and creative thinking are fundamental building blocks of a child’s education, but bringing the artistic method into schools is a complicated task. For three years, five art groups — fine arts, literature, music, dance and theater — worked with schools to develop formats and methods for qualitative art in the classroom.\n\nKunstlabore is the online platform documenting that work, made to inspire educators and artists to work together.",
       responsibilities:
-        "As product owner I led a team of five and coordinated six other teams from schools, education, and art — people who were not tech-savvy. I was the solution architect for the platform: I owned the digital concept and the code, and ran workshops and iterations with those partners until educators could use the site and a workbook to carry the methods into their own classrooms.",
+        "As product owner and software engineer I led a team of five and coordinated six other teams from schools, education, and art — people who were not tech-savvy. I owned the digital concept and the code, and ran workshops and iterations with those partners until educators could use the site and a workbook to carry the methods into their own classrooms.",
       scopeNote:
         "An arts-education platform with five of us, from 2018 to 2019. Multiple workshops and iterations led to a workbook so teachers across the country could replicate the methods for teaching art in schools.",
       partnersNote:
@@ -213,7 +213,7 @@ window.PORTFOLIO = {
       name: "El Hijo",
       org: "honig",
       type: "own",
-      seats: ["product"],
+      seats: ["product", "technical"],
       years: "2016–2019",
       yearStart: 2016,
       yearSort: 2019,
@@ -223,7 +223,7 @@ window.PORTFOLIO = {
       story:
         "El Hijo is a spaghetti western, an indie stealth game set in a mythical place that resembles the American west as we know it from Sergio Leone: gangs of outlaws, shady saloons, and desert landscapes, all served with a helping of sarcasm and irony. The journey begins when a farmer and her son El Hijo are attacked by bandits who raze their farm. The mother, confronted with a difficult choice, leaves El Hijo with a group of old monks at a secluded monastery. El Hijo decides the monastic life is not for him, and he escapes.\n\nYou sneak through three environments — a remote monastery, a harsh stretch of desert, and a frontier town rife with crime — and in each one El Hijo has to contend with different opponents. Progress means combining stealth and puzzle-solving into a mischievous master plan, and the further he goes, the more complex those combinations become.",
       responsibilities:
-        "As product owner I coordinated six engineers and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
+        "As product owner and technical program manager I coordinated six engineers and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
       scopeNote: "A console, streaming, and PC game with sixteen of us, from 2016 until it released in 2019.",
       partnersNote: "THQ Nordic Mobile published it, with additional funding from Medienboard and Nordmedia.",
       result: null,
@@ -352,7 +352,7 @@ window.PORTFOLIO = {
       name: "Milli The Snail",
       org: "honig",
       type: "own",
-      seats: ["product"],
+      seats: ["product", "solutions"],
       years: "2014–2015",
       yearStart: 2014,
       yearSort: 2015,
@@ -362,7 +362,7 @@ window.PORTFOLIO = {
       story:
         "On a perfectly normal, totally magical hill stands a very special apple tree, full of confetti blossom, autumn leaves and rosy apples all at the same time. Beneath the apple tree lives a very small and very curious young snail called Milli. She is the only snail on Apple-Tree Hill, and when we first meet her she is not sure what it means to be a snail. She is very slow, she knows that much.\n\nBut Milli is also inquisitive, and it is her constant need to understand the world around her that fuels her adventures. When she sees Harry the Stag Beetle’s magnificent antlers, she doesn’t think “oh, that’s interesting.” She thinks: I wonder what it would be like to have antlers like that? And thus another adventure begins.",
       responsibilities:
-        "As product owner I led a team of six. I programmed the app, handled business development and funding, and published it on the iOS and Android stores.",
+        "As product owner and software engineer I led a team of six. I programmed the app, handled business development and funding, and published it on the iOS and Android stores.",
       scopeNote: "An original children’s app with six of us, from 2014 to 2015. I coordinated the efforts that resulted in selling the distribution rights to a major publisher.",
       partnersNote: "Medienboard and MFG funded it.",
       result: null,
@@ -402,7 +402,7 @@ window.PORTFOLIO = {
       name: "Atterwasch",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2013–2014",
       yearStart: 2013,
       yearSort: 2014,
@@ -412,7 +412,7 @@ window.PORTFOLIO = {
       story:
         "Atterwasch is a web-documentary about the German village of the same name, under pressure to make way for a brown-coal open-cast mine, even though the village exemplifies Germany’s energy transition. Over a year, from 2013 to 2014, it follows the uncertainty the residents were living with. With interactive parallax scrolling, it takes a detailed inventory of the mining area of Lower Brandenburg, and unfolds the fate of a region and its inhabitants between relocation and home, unemployment and large corporations, conservation and energy policy — a black-and-white footprint of a village that will soon be history.",
       responsibilities:
-        "As technical lead I worked with a team of five. I programmed the site and shaped the UX, so you could set your own pace through the village. I helped coordinate the project with the partners and the team as well as the integration with the other media partners.",
+        "As software engineer I worked with a team of five. I programmed the site and shaped the UX, so you could set your own pace through the village. I helped coordinate the project with the partners and the team as well as the integration with the other media partners.",
       scopeNote: "A public-media web-documentary with five of us, from 2013 to 2014.",
       partnersNote: "We made this with ARTE Future, MIZ Babelsberg, and the Rudolf Augstein Stiftung.",
       result: null,
@@ -435,7 +435,7 @@ window.PORTFOLIO = {
       name: "Disaster Resilience Journal",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2014",
       yearStart: 2014,
       yearSort: 2014,
@@ -444,7 +444,7 @@ window.PORTFOLIO = {
       team: "5",
       story:
         "An interactive web-documentary built around forty-two short pieces — photo and video essays, interviews, games and quizzes — in eleven languages. Viewers were invited to contribute their own resilience stories, and the campaign lived across web, mobile, social and live events.",
-      responsibilities: "I was the technical lead — I programmed the mini-games inside it and helped coordinate the project with the partners and the team as well as the integration with the other media partners.",
+      responsibilities: "I was the software engineer — I programmed the mini-games inside it and helped coordinate the project with the partners and the team as well as the integration with the other media partners.",
       scopeNote: "A humanitarian web-documentary with five of us, in 2014.",
       partnersNote:
         "The Red Cross — the International Federation of Red Cross and Red Crescent Societies — commissioned it; Helios Design Labs produced it with us.",
@@ -462,7 +462,7 @@ window.PORTFOLIO = {
       name: "Everyday Rebellion",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2014",
       yearStart: 2014,
       yearSort: 2014,
@@ -472,7 +472,7 @@ window.PORTFOLIO = {
       story:
         "A companion app to a feature documentary about creative nonviolent activism: a practical guide and information hub connected to the film and the site. The app was built around user-generated content — people could contribute their own material, so the project kept growing beyond the film.",
       responsibilities:
-        "I was the technical lead — I programmed the app and built the backend to screen, curate, and highlight user-generated content, and to connect it to the film.",
+        "I was the software engineer — I programmed the app and built the backend to screen, curate, and highlight user-generated content, and to connect it to the film.",
       scopeNote: "A documentary companion with six of us, in 2014.",
       partnersNote:
         "Kloos & Co. and Golden Girls Filmproduktion were the partners. Medienboard funded it.",
@@ -490,7 +490,7 @@ window.PORTFOLIO = {
       name: "The Spiral",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2010–2012",
       yearStart: 2010,
       yearSort: 2012,
@@ -500,7 +500,7 @@ window.PORTFOLIO = {
       story:
         "A European transmedia crime series that went out live, in several languages, at the same time across a group of state broadcasters — with online games and a live event in Brussels. Players moved between the broadcast, a map of the city, and more than twenty minigames.",
       responsibilities:
-        "As technical lead I worked with a team of twelve. I was the technical producer and I built the mini-games that sat alongside the series.",
+        "As software engineer I worked with a team of twelve. I was the technical producer and I built the mini-games that sat alongside the series.",
       scopeNote: "A transmedia series with twelve of us, from 2010 to 2012.",
       partnersNote:
         "Caviar Films produced the series with a group of European broadcasters — NRK, SVT, VARA, Arte, TV3, YLE, and Eén.",
@@ -515,7 +515,7 @@ window.PORTFOLIO = {
       name: "Sing with Jessie J",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2011",
       yearStart: 2011,
       yearSort: 2011,
@@ -525,7 +525,7 @@ window.PORTFOLIO = {
       story:
         "A Facebook karaoke app and a YouTube video for Universal Music, promoting Jessie J’s single Price Tag to teenage girls. Your webcam synced to a prerecorded video, Facebook Connect folded in some of your info, and the tracking rewarded you for dancing along.",
       responsibilities:
-        "I was the technical lead — I programmed the karaoke app and coordinated with another developer — the webcam, the bitmap tracking, Facebook Connect, and the backend that ran it in eight languages.",
+        "I was the software engineer — I programmed the karaoke app and coordinated with another developer — the webcam, the bitmap tracking, Facebook Connect, and the backend that ran it in eight languages.",
       scopeNote: "A music-campaign experiment with eight of us, in 2011.",
       partnersNote: "Universal Music was the partner.",
       result:
@@ -544,7 +544,7 @@ window.PORTFOLIO = {
       name: "Notruf Deutschland",
       org: "honig",
       type: "hired",
-      seats: ["technical"],
+      seats: ["solutions"],
       years: "2010–2011",
       yearStart: 2010,
       yearSort: 2011,
@@ -554,7 +554,7 @@ window.PORTFOLIO = {
       story:
         "Notruf Deutschland is an interactive drama told across multiple platforms, which aims to provoke a public debate around the subject of reality TV. It reveals how reality shows actually work: framing the participants, manipulating content and deceiving the viewers. At its core is a scripted reality show, which gradually exceeds all moral and social conventions.\n\nIt blends reality and fiction in a puzzle the audience is invited to unravel: discover backstage material of the show, discuss the implications of such a format and eventually take action to stop it. Seven episodes of five minutes.",
       responsibilities:
-        "I was the technical lead — I programmed the interactive player — live compositing of the viewer’s photo at preset timecodes, Facebook photo import, and a face-recognition step so only pictures with one face were used.",
+        "I was the software engineer — I programmed the interactive player — live compositing of the viewer’s photo at preset timecodes, Facebook photo import, and a face-recognition step so only pictures with one face were used.",
       scopeNote: "An experimental web series with eight of us, from 2010 to 2011.",
       partnersNote: "We made this for MyVideo, with funding from Medienboard.",
       result: null,
