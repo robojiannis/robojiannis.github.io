@@ -90,7 +90,7 @@ window.PORTFOLIO = {
       yearSort: 2025,
       scope: "high",
       partners: ["BMWK", "equity investment"],
-      team: "25",
+      team: "35",
       story:
         "The Lost Glitches is a tactical card battler built for short PvP matches. Five free starter decks get you into the fight; the 5-slot battlefield and unlockable skills are where the depth sits if you want it.",
       responsibilities:
