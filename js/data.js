@@ -7,7 +7,7 @@ window.PORTFOLIO = {
     email: "robojiannis [at] gmail [dot] com",
     linkedin: "https://www.linkedin.com/in/jiannissotiropoulos/",
     hire: [
-      "I founded and ran Honig Studios, a digital production studio in Berlin for sixteen years as product owner, software engineer, and technical program manager.",
+      "I founded and ran Honig Studios, a digital production studio in Berlin for sixteen years as product owner, software engineer, and technical product manager.",
       "What I care about is still the same — I pick the stack, ship the product, and stay after launch.",
     ],
     proof: [
@@ -71,9 +71,9 @@ window.PORTFOLIO = {
       partners: [],
       team: "1",
       story:
-        "whether.games is an AI tool that quickly cleans up a publisher’s inbox and helps developers iteratively improve their games. Pitch decks land in an encrypted inbox; publishers get a fit report back — whether this game belongs with them, and what the weather looks like if they take it on.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
+        "whether.games gives game developers an honest, data-backed read on their pitch before it goes to publishers: they submit their deck to an encrypted inbox and get a fit report back — market fit, competition, and presentation, read against the publisher’s own lens.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
       responsibilities:
-        "I was the product owner and software engineer, and built it independently — an encrypted inbox for pitches, a scoring pipeline that stays model-agnostic, and the live market data a fit report has to stand on.",
+        "I am the product owner and software engineer, and build it independently — product, engineering and business, end to end: the encrypted inbox for pitches, the scoring pipeline behind the fit report, and the live market data it has to stand on.",
       scopeNote: null,
       partnersNote: null,
       result:null,      awards: null,
@@ -94,8 +94,8 @@ window.PORTFOLIO = {
       story:
         "The Lost Glitches is a tactical card battler built for short PvP matches. Five free starter decks get you into the fight; the 5-slot battlefield and unlockable skills are where the depth sits if you want it.",
       responsibilities:
-        "As product owner and technical program manager I coordinated ten engineers alongside designers and artists in a team of thirty-five. I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming. I also owned the CI/CD path from local test through merge, build, and promotion onto staging and preview environments (Jenkins and custom scripting), including database updates and seed data so a test environment came up ready to play on Steam and Epic.",
-      scopeNote: "A live game with thirty-five of us, development started in 2022 until it released in 2025.",
+        "As product owner and technical product manager I coordinated ten engineers in a product team of twenty-five, plus eight more across business development, community and marketing. I directed the game, handled business development and publishing, and programmed the LiveOps backend — the stores, the economy, live operations, and streaming. I also owned the CI/CD path from local test through merge, build, and promotion onto staging and preview environments (Jenkins and custom scripting), including database updates and seed data so a test environment came up ready to play on Steam and Epic.",
+      scopeNote: "A live game with thirty-three of us, development started in 2022 until it released in 2025.",
       partnersNote: "BMWK funded the production, along with equity investors.",
       result:
         "We were competing with AAA games for the same players. A strategic partnership with Twitch, listening to the community, and choosing which features to ship got us to 300,000 registered users, and a peak of 10,000 daily players.",
@@ -117,7 +117,7 @@ window.PORTFOLIO = {
       story:
         "You want to rethink a library — maybe even rebuild it — and you want the people who use it in the room. hochdrei – Visionenspiel is a browser game the Kulturstiftung des Bundes made for that: library teams, administrations, and citizens sit together and turn scattered wishes into one shared concept.\n\nYou book a slot, send a link, and meet in the browser for about two hours, webcam and microphone on. The game walks the group from rough ideas — how the place should look, what it should do, how it should feel — to a plan you can download and keep using. Desktop only; phones and tablets stay out.",
       responsibilities:
-        "I was the product owner and technical program manager, and I programmed it. I worked iteratively, with rapid prototypes, so the tool could change as we learned what actually happened in the room.",
+        "I was the product owner and technical product manager, and I programmed it. I worked iteratively, with rapid prototypes, so the tool could change as we learned what actually happened in the room.",
       scopeNote:
         "We spent a year and a half developing and testing it. The partner libraries we worked with asked for an intentionally simple design — they wanted the focus on the conversation and the ideation, not the interface. It launched on 24 October 2022, the German Day of Libraries.\n\nLibraries across Germany use the page as a foundation for their workshops.",
       partnersNote:
@@ -164,7 +164,7 @@ window.PORTFOLIO = {
       story:
         "Ooigo is a children’s audiobook app we built for Sony Music. It connects to Spotify or Apple Music and recommends stories by age and interest. The app remembers favourite series, continues where listening stopped, and suggests series that fit the child’s profile.\n\nChildren can search for series and episodes; if a result leaves the preset profile, a parental gate kicks in.",
       responsibilities:
-        "As product owner and technical program manager I coordinated four other engineers from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, streaming (Spotify, Apple Music, Deezer, Napster) connections, and the recommendation algorithms.",
+        "As product owner and technical product manager I coordinated four other engineers from the first idea through after launch, and I sat with Sony’s Head of New Business the whole way. I built the backend APIs, streaming (Spotify, Apple Music, Deezer, Napster) connections, and the recommendation algorithms.",
       scopeNote: "A live product with eight of us, from 2017 to 2020.",
       partnersNote: "Sony Music was the partner.",
       result:
@@ -214,21 +214,21 @@ window.PORTFOLIO = {
       org: "honig",
       type: "own",
       seats: ["product", "technical"],
-      years: "2016–2019",
+      years: "2016–2020",
       yearStart: 2016,
-      yearSort: 2019,
+      yearSort: 2020,
       scope: "high",
       partners: ["THQ Nordic Mobile", "Medienboard", "Nordmedia"],
       team: "16",
       story:
         "El Hijo is a spaghetti western, an indie stealth game set in a mythical place that resembles the American west as we know it from Sergio Leone: gangs of outlaws, shady saloons, and desert landscapes, all served with a helping of sarcasm and irony. The journey begins when a farmer and her son El Hijo are attacked by bandits who raze their farm. The mother, confronted with a difficult choice, leaves El Hijo with a group of old monks at a secluded monastery. El Hijo decides the monastic life is not for him, and he escapes.\n\nYou sneak through three environments — a remote monastery, a harsh stretch of desert, and a frontier town rife with crime — and in each one El Hijo has to contend with different opponents. Progress means combining stealth and puzzle-solving into a mischievous master plan, and the further he goes, the more complex those combinations become.",
       responsibilities:
-        "As product owner and technical program manager I coordinated six engineers and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
-      scopeNote: "A console, streaming, and PC game with sixteen of us, from 2016 until it released in 2019.",
+        "As product owner and technical product manager I coordinated six engineers from first concept through launch and beyond, and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
+      scopeNote: "A console, streaming, and PC game with sixteen of us, from 2016 until it released in 2020.",
       partnersNote: "THQ Nordic Mobile published it, with additional funding from Medienboard and Nordmedia.",
       result: null,
       awards:
-        "It took Gamescom 2019 Best Indie Game, the Deutscher Computerspielpreis 2021 for best Family Game, and Apple TV Game of the Year.",
+        "It took Gamescom 2019 Best Indie Game, the Deutscher Computerspielpreis 2021 for best Family Game, and Apple TV Game of the Year 2022.",
       awardTags: ["Gamescom Best Indie Game", "Deutscher Computerspielpreis"],
       press: [
         {
