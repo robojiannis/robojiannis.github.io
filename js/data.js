@@ -214,7 +214,7 @@ window.PORTFOLIO = {
       org: "honig",
       type: "own",
       seats: ["product", "technical"],
-      years: "2016–2020",
+      years: "from 2016 · released 2020",
       yearStart: 2016,
       yearSort: 2020,
       scope: "high",
