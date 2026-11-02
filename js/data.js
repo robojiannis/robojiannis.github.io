@@ -40,12 +40,12 @@ window.PORTFOLIO = {
       {
         degree: "Master of Arts, European Media Studies",
         place: "University of Potsdam / FH Potsdam",
-        year: "2008",
+        year: "2005–2007",
       },
       {
         degree: "Bachelor, Sociology",
         place: "Panteion University, Athens",
-        year: "2005",
+        year: "2000–2004",
       },
     ],
     skills: [
