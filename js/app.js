@@ -220,7 +220,7 @@
     const ordered = sortProjects(projects.slice());
     indexEl.innerHTML = ordered
       .map((project) => {
-        const seats = project.seats.map((seat) => SEAT_LABEL[seat]).join(" · ");
+        const seats = project.roleLabel || project.seats.map((seat) => SEAT_LABEL[seat]).join(" · ");
         const partners = project.partners.length
           ? escapeHtml(project.partners.join(" · "))
           : "—";
