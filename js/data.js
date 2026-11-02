@@ -64,6 +64,7 @@ window.PORTFOLIO = {
       org: "whether",
       type: "own",
       seats: ["product", "solutions"],
+      roleLabel: "Product Owner & Technical Lead",
       years: "2026",
       yearStart: 2026,
       yearSort: 2026,
@@ -73,7 +74,7 @@ window.PORTFOLIO = {
       story:
         "whether.games gives game developers an honest, data-backed read on their pitch before it goes to publishers: they submit their deck to an encrypted inbox and get a fit report back — market fit, competition, and presentation, read against the publisher’s own lens.\n\nIt scores against the publisher’s own lens — genre, audience, budget, content policy — using Steam shelf signals and curated market references. Developers get the same read, so they can change the game and the pitch instead of guessing why it was a pass.",
       responsibilities:
-        "I am the product owner and software engineer, and build it independently — product, engineering and business, end to end: the encrypted inbox for pitches, the scoring pipeline behind the fit report, and the live market data it has to stand on.",
+        "I am the product owner and technical lead, and build it independently — product, engineering and business, end to end: the encrypted inbox for pitches, the scoring pipeline behind the fit report, and the live market data it has to stand on.",
       scopeNote: null,
       partnersNote: null,
       result:null,      awards: null,
@@ -223,7 +224,7 @@ window.PORTFOLIO = {
       story:
         "El Hijo is a spaghetti western, an indie stealth game set in a mythical place that resembles the American west as we know it from Sergio Leone: gangs of outlaws, shady saloons, and desert landscapes, all served with a helping of sarcasm and irony. The journey begins when a farmer and her son El Hijo are attacked by bandits who raze their farm. The mother, confronted with a difficult choice, leaves El Hijo with a group of old monks at a secluded monastery. El Hijo decides the monastic life is not for him, and he escapes.\n\nYou sneak through three environments — a remote monastery, a harsh stretch of desert, and a frontier town rife with crime — and in each one El Hijo has to contend with different opponents. Progress means combining stealth and puzzle-solving into a mischievous master plan, and the further he goes, the more complex those combinations become.",
       responsibilities:
-        "As product owner and technical product manager I coordinated six engineers from first concept through launch and beyond, and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
+        "As product owner and technical product manager I coordinated six engineers from first concept through launch and beyond, and owned business development and funding. I also owned the release-to-test CI/CD loop across Steam, Epic, GOG, Switch, Xbox, PlayStation, Apple TV, and Google Stadia (Jenkins and custom scripting), and brought that time down from days to a few hours.",
       scopeNote: "A console, streaming, and PC game with sixteen of us, from 2016 until it released in 2020.",
       partnersNote: "THQ Nordic Mobile published it, with additional funding from Medienboard and Nordmedia.",
       result: null,
